@@ -36,5 +36,6 @@ module.exports = {
     port: 3000,
     compress: true,
     client: {overlay: true }// para abrir un overlay con los errores
-  }
+  },
+  devtool: 'source-map'
 }
