@@ -30,5 +30,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({template: 'src/index.html'})
-  ]
+  ],
+  devServer: {
+    open: true, // para que se abra en el navegador
+    port: 3000,
+    compress: true,
+    client: {overlay: true }// para abrir un overlay con los errores
+  }
 }

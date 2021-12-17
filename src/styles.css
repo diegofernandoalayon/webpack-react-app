@@ -6,6 +6,7 @@ body {
   background-color: #eee;
   display: grid;
   place-content: center;
+  color: #09f;
   min-height: 100vh;
   margin: 0;
 }
